@@ -13,7 +13,7 @@ updatePlaylist
 playlist
 
 function removeFromPlaylist (playlist, artistName) {
-  artistName.pop();
+  delete playlist[artistName];
   return playlist;
 }
 
